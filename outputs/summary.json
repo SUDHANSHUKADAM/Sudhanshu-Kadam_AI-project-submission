@@ -1,0 +1,129 @@
+{
+  "overview": {
+    "records": 2191,
+    "columns": [
+      "Subject",
+      "body",
+      "date",
+      "from",
+      "polarity",
+      "sentiment"
+    ],
+    "employees": 10,
+    "date_min": "2010-01-01",
+    "date_max": "2011-12-31",
+    "missing_values": 0
+  },
+  "sentiment_counts": {
+    "Positive": 1327,
+    "Neutral": 547,
+    "Negative": 317
+  },
+  "overall_ranking": [
+    {
+      "rank": 1,
+      "employee": "john.arnold@enron.com",
+      "total_score": 125,
+      "months_active": 24
+    },
+    {
+      "rank": 2,
+      "employee": "lydia.delgado@enron.com",
+      "total_score": 125,
+      "months_active": 24
+    },
+    {
+      "rank": 3,
+      "employee": "sally.beck@enron.com",
+      "total_score": 109,
+      "months_active": 24
+    },
+    {
+      "rank": 4,
+      "employee": "johnny.palmer@enron.com",
+      "total_score": 105,
+      "months_active": 24
+    },
+    {
+      "rank": 5,
+      "employee": "patti.thompson@enron.com",
+      "total_score": 102,
+      "months_active": 24
+    },
+    {
+      "rank": 6,
+      "employee": "bobette.riner@ipgdirect.com",
+      "total_score": 100,
+      "months_active": 24
+    },
+    {
+      "rank": 7,
+      "employee": "don.baughman@enron.com",
+      "total_score": 97,
+      "months_active": 24
+    },
+    {
+      "rank": 8,
+      "employee": "eric.bass@enron.com",
+      "total_score": 97,
+      "months_active": 24
+    },
+    {
+      "rank": 9,
+      "employee": "kayne.coulter@enron.com",
+      "total_score": 89,
+      "months_active": 24
+    },
+    {
+      "rank": 10,
+      "employee": "rhonda.denton@enron.com",
+      "total_score": 61,
+      "months_active": 24
+    }
+  ],
+  "flight_risks": [
+    "bobette.riner@ipgdirect.com",
+    "don.baughman@enron.com",
+    "eric.bass@enron.com",
+    "john.arnold@enron.com",
+    "johnny.palmer@enron.com",
+    "kayne.coulter@enron.com",
+    "lydia.delgado@enron.com",
+    "patti.thompson@enron.com",
+    "rhonda.denton@enron.com",
+    "sally.beck@enron.com"
+  ],
+  "model_metrics": {
+    "r2": 0.799660616186428,
+    "mae": 1.003119360873277,
+    "rmse": 1.494974681328284,
+    "n_train": 192,
+    "n_test": 48
+  },
+  "coefficients": [
+    {
+      "feature": "neg_ratio",
+      "coefficient": -7.1927747729485
+    },
+    {
+      "feature": "pos_ratio",
+      "coefficient": 3.583502603308722
+    },
+    {
+      "feature": "messages",
+      "coefficient": 0.48278183227612786
+    },
+    {
+      "feature": "avg_words",
+      "coefficient": -0.04844531613201666
+    },
+    {
+      "feature": "avg_msg_length",
+      "coefficient": 0.010385244434699506
+    },
+    {
+      "feature": "total_words",
+      "coefficient": -0.00023714531937913386
+    }
+  ]
+}

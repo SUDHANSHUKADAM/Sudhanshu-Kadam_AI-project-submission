@@ -1,0 +1,11 @@
+employee,total_negative_emails,window_start,window_end,negatives_in_window
+bobette.riner@ipgdirect.com,32,2010-10-21,2010-11-10,4
+don.baughman@enron.com,25,2010-02-13,2010-03-07,4
+eric.bass@enron.com,34,2010-03-19,2010-04-15,4
+john.arnold@enron.com,31,2010-02-26,2010-03-26,4
+johnny.palmer@enron.com,31,2010-02-06,2010-02-25,4
+kayne.coulter@enron.com,24,2011-11-26,2011-12-26,4
+lydia.delgado@enron.com,42,2010-06-17,2010-06-24,4
+patti.thompson@enron.com,34,2010-04-05,2010-05-02,4
+rhonda.denton@enron.com,32,2010-08-10,2010-08-28,4
+sally.beck@enron.com,32,2010-01-23,2010-02-22,4
