@@ -1,0 +1,126 @@
+{
+  "overview": {
+    "records": 2191,
+    "columns": [
+      "Subject",
+      "body",
+      "date",
+      "from",
+      "compound",
+      "sentiment"
+    ],
+    "employees": 10,
+    "date_min": "2010-01-01",
+    "date_max": "2011-12-31",
+    "missing_values": 0
+  },
+  "sentiment_counts": {
+    "Positive": 1574,
+    "Neutral": 444,
+    "Negative": 173
+  },
+  "overall_ranking": [
+    {
+      "rank": 1,
+      "employee": "lydia.delgado@enron.com",
+      "total_score": 188,
+      "months_active": 24
+    },
+    {
+      "rank": 2,
+      "employee": "john.arnold@enron.com",
+      "total_score": 179,
+      "months_active": 24
+    },
+    {
+      "rank": 3,
+      "employee": "patti.thompson@enron.com",
+      "total_score": 147,
+      "months_active": 24
+    },
+    {
+      "rank": 4,
+      "employee": "eric.bass@enron.com",
+      "total_score": 145,
+      "months_active": 24
+    },
+    {
+      "rank": 5,
+      "employee": "don.baughman@enron.com",
+      "total_score": 135,
+      "months_active": 24
+    },
+    {
+      "rank": 6,
+      "employee": "sally.beck@enron.com",
+      "total_score": 134,
+      "months_active": 24
+    },
+    {
+      "rank": 7,
+      "employee": "johnny.palmer@enron.com",
+      "total_score": 130,
+      "months_active": 24
+    },
+    {
+      "rank": 8,
+      "employee": "bobette.riner@ipgdirect.com",
+      "total_score": 126,
+      "months_active": 24
+    },
+    {
+      "rank": 9,
+      "employee": "rhonda.denton@enron.com",
+      "total_score": 112,
+      "months_active": 24
+    },
+    {
+      "rank": 10,
+      "employee": "kayne.coulter@enron.com",
+      "total_score": 105,
+      "months_active": 24
+    }
+  ],
+  "flight_risks": [
+    "bobette.riner@ipgdirect.com",
+    "eric.bass@enron.com",
+    "john.arnold@enron.com",
+    "johnny.palmer@enron.com",
+    "kayne.coulter@enron.com",
+    "patti.thompson@enron.com",
+    "sally.beck@enron.com"
+  ],
+  "model_metrics": {
+    "r2": 0.8244255090356777,
+    "mae": 1.0368235017648735,
+    "rmse": 1.4182687423316274,
+    "n_train": 192,
+    "n_test": 48
+  },
+  "coefficients": [
+    {
+      "feature": "pos_ratio",
+      "coefficient": 4.044093963408357
+    },
+    {
+      "feature": "neg_ratio",
+      "coefficient": -2.711970456691881
+    },
+    {
+      "feature": "messages",
+      "coefficient": 0.5719309399308478
+    },
+    {
+      "feature": "avg_words",
+      "coefficient": -0.003750306481782426
+    },
+    {
+      "feature": "avg_msg_length",
+      "coefficient": -0.00171167102275135
+    },
+    {
+      "feature": "total_words",
+      "coefficient": 0.0016504940842764254
+    }
+  ]
+}
